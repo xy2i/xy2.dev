@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+  import { title } from "$lib/meta.json";
+</script>
+
+<svelte:head>
+  <title>{title}</title>
+</svelte:head>
+
+xy2.dev

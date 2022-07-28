@@ -1,7 +1,13 @@
 <script>
   export let posts;
   export let category;
+
+  import { title } from "$lib/meta.json";
 </script>
+
+<svelte:head>
+  <title>Categories - {title}</title>
+</svelte:head>
 
 <h1>Category: {category}</h1>
 {#if posts.length}

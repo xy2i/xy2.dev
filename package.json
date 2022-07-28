@@ -18,6 +18,7 @@
 		"@sveltejs/kit": "^1.0.0-next.385",
 		"@typescript-eslint/eslint-plugin": "^5.27.0",
 		"@typescript-eslint/parser": "^5.27.0",
+		"autoprefixer": "^10.4.7",
 		"eslint": "^8.20.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-svelte3": "^4.0.0",
@@ -32,5 +33,12 @@
 		"typescript": "^4.7.4",
 		"vite": "^3.0.1"
 	},
-	"type": "module"
+	"meta": {
+		"title": "xy2.dev"
+	},
+	"type": "module",
+	"dependencies": {
+		"rehype-autolink-headings": "^6.1.1",
+		"rehype-slug": "^5.0.1"
+	}
 }
