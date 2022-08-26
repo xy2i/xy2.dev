@@ -38,6 +38,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"every-layout": "^1.0.6",
 		"rehype-autolink-headings": "^6.1.1",
 		"rehype-slug": "^5.0.1"
 	}

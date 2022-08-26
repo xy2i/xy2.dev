@@ -13,7 +13,7 @@
 </script>
 
 <div class="container">
-  {#each routeParts as [routePart, i] (routeParts.slice(0, i + 1).map(([el, i]) => el).toString())}
+  {#each routeParts as [routePart, i] (routeParts.slice(0, i + 1).toString())}
     <div class="route-indicator"
          in:fly={{ duration: DURATION, delay: DURATION, y:20, }}
          out:fly={{ duration: DURATION, x:-20, easing: backIn }}>{routePart}</div>
