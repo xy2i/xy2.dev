@@ -21,9 +21,6 @@
 </div>
 
 <style>
-    .container {
-    }
-
     .route-indicator {
         display: inline-block;
         border: 1px solid red;

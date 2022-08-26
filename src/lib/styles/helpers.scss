@@ -1,0 +1,8 @@
+/* Helpers : utility classes for layout */
+.max-inline-size\:measure {
+  max-inline-size: var(--measure);
+}
+
+.max-inline-size\:measure\/2 {
+  max-inline-size: calc(var(--measure) / 2);
+}

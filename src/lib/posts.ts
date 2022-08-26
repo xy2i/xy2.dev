@@ -34,9 +34,6 @@ export async function getPosts(): Promise<Post[]> {
 		})
 	);
 
-	const sortedPosts = allPosts.sort((a, b) => {
-		return +new Date(b.meta.date) - +new Date(a.meta.date);
-	});
-
-	return sortedPosts;
+	allPosts.sort((a, b) => +new Date(b.meta.date) - +new Date(a.meta.date));
+	return allPosts;
 }
